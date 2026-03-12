@@ -1,0 +1,91 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color:wheat;
+}
+h3{
+    color: green;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 40px;
+    box-sizing: 900px;
+}
+.card{
+    background:black;
+    border: 1px solid #ccc;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px black;
+    text-align: center;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+}
+.header{
+    display:contents;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 15px 40px;
+}
+.logo{
+    color: black;
+    font-size: 16px;
+}
+button{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    cursor:pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+/*HERO SECTION*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+.hero-text h1{
+  font-size: 42px;
+  margin: 10px 0;
+}
+.green{
+    color: green;
+}
+.hero-text p{
+    line-height: 1.6;
+    margin-top: 15px;
+}
+.buttons{
+    margin-top: 25px;
+}
+.btn1{
+    background: green;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn2{
+    background: transparent;
+    border: 1px solid green;
+    color: green;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hero-image img{
+    width: 430px;
+    border-radius: 15px;
+}

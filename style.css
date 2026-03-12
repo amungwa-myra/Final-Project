@@ -43,47 +43,7 @@ header{
     padding:8px 18px ;
     border-radius: 20px;
 }
-/*HERO SECTION*/
-.hero{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 70px;
-}
-.hero-text h1{
-  font-size: 42px;
-  margin: 10px 0;
-}
-.green{
-    color: green;
-}
-.hero-text p{
-    line-height: 1.6;
-    margin-top: 15px;
-}
-.buttons{
-    margin-top: 25px;
-}
-.btn1{
-    background: green;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 25px;
-    cursor: pointer;
-}
-.btn2{
-    background: transparent;
-    border: 1px solid green;
-    color: green;
-    padding: 12px 25px;
-    border-radius: 25px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-.hero-image img{
-    width: 430px;
-    border-radius: 15px;
-}
+
 /*MOBILE RESPONSIVE*/
 @Media(max-width:768px)
 {

@@ -1,0 +1,24 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    width: 90%;
+    max-width: 100% ;
+    padding: 50px;
+    /* background-color: red; */
+    flex-wrap: wrap;
+}
+.card-content{
+    padding: 20px;
+    background-color:white;
+    width: 100% ;
+    border-radius: 5px;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 25%;
+}
+.card-content img{
+    width: 100%;
+}
