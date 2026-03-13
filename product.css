@@ -22,3 +22,11 @@
 .card-content img{
     width: 100%;
 }
+/*Footer*/
+footer{
+    background: green;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}

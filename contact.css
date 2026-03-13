@@ -1,0 +1,61 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background-color:wheat;
+    color: black;
+}
+/*Header*/
+header{
+    background-color: rgb(45, 141, 45);
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+nav{
+    margin-top: 1px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    font-weight: bold;
+}
+/*Contact Section*/
+.contact{
+    width:100%;
+    margin: auto;
+    background: pink;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+/*Form*/
+input,textarea{
+    width: 40%;
+    padding: 10px;
+    border: 1px solid blue;
+}
+textarea{
+    height: 80px;
+}
+button{
+    background-color: rgb(3, 3, 3);
+    color: blue;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+/*Footer*/
+footer{
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

@@ -1,0 +1,62 @@
+body{
+    background-image:
+    url("./download\ \(5\).jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial;
+    margin: 0;
+    background-color:white;
+    color:whitesmoke;
+}
+/*HEADER*/
+header{
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    font-weight: 900;
+}
+ul li{
+    font-weight: 800;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15PX;
+    font-size: 18PX;
+}
+nav a:hover{
+    color: blue;
+}
+/*Sections*/
+section{
+    width: 80%;
+    margin: auto;
+    padding: 3px;
+}
+h2{
+    color:green;
+}
+h3{
+    color:green;
+}
+h4{
+    color:green;
+}
+ul{
+    line-height: 40px;
+}
+/*Footer*/
+footer{
+    background: green;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
