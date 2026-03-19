@@ -25,6 +25,12 @@
         <div class="Logo">
             <h2>BEAUTY WITH ELEGANCE</h2>
         </div>
+        <div class="menu-icon"
+                    onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
         <div class="nav-links">
             <li><a href="index.html">home</a></li></a>
             <li><a href="about.html">about</a></li></a>
@@ -36,8 +42,8 @@
     <section class="hero">
         <div class="hero-text">
          </p> 
-         <h1> The emergence of beauty to</h1>  
-         <h1 class="green">Every woman</h1>  
+         <h1> The emergence of beauty and Fashion to</h1>  
+         <h1 class="green">Every Human</h1>  
          <p>
             When it comes to dressing and beauty a woman does not joke so beauty is literally the center of a woman's life.
             so today i am just bringing to you all a remedy of your situation.
@@ -95,12 +101,23 @@
             <li><a href="contact.html">contact</a></li>
         </header>
         </div>
+       <div class="about me icons">
+        <a href="#">
+        <i class="fa-brands fa-facebook"></i></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        </a>
+    </div>
         </nav>
         <footer>
             All rights reserved
             @BEAUTY With Elegance
-
         </footer>
+        <script>
+        function toggleMenu(){
+            document.getElementById("navLinks")
+            .classlist.toggle("active")
+        }
+    </script>
     </nav>
 </body>
 </html>

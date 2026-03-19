@@ -11,6 +11,13 @@
         <header>
             <h1>All About Our Fashion Store</h1>
             <nav>
+                <div class="menu-icon"
+                    onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                </div>
                 <div class="nav-links">
             <a href="index.html"><li>home</li></a>
             <a href="about.html"><li>about</li></a>
@@ -62,5 +69,11 @@
         <p>@ 2026 My Fashion Store | All 
             Rights Reserved</p>
     </footer>
+    <script>
+        function toggleMenu(){
+            document.getElementById("navLinks")
+            .classlist.toggle("active")
+        }
+    </script>
 </body>
 </html>

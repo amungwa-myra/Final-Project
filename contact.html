@@ -13,6 +13,12 @@
         <div class="Logo">
             <h2>MY FASHION STORE</h2>
         </div>
+        <div class="menu-icon"
+                    onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
         <div class="nav-links">
             <li><a href="index.html">home</a></li></a>
             <li><a href="about.html">about</a></li></a>
@@ -43,5 +49,11 @@
     <footer>
         <p>@2026 My Fashion Store</p>
     </footer>
+    <script>
+        function toggleMenu(){
+            document.getElementById("navLinks")
+            .classlist.toggle("active")
+        }
+    </script>
 </body>
 </html>

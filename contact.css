@@ -3,6 +3,8 @@ body{
     margin: 0;
     background-color:wheat;
     color: black;
+    justify-content: center;
+    align-items: center;
 }
 /*Header*/
 header{
@@ -24,38 +26,40 @@ nav a{
 .contact{
     width:100%;
     margin: auto;
-    background: pink;
+    background:mediumseagreen;
     padding: 30px;
     margin-top: 40px;
     text-align: center;
 }
 .contact-container{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: flex-start;
     gap: 50px;
+    text-align:center;
+    width: 400px;
 }
 /*Form*/
 input,textarea{
     width: 40%;
     padding: 10px;
-    border: 1px solid blue;
+    border: 1px solid rgb(23, 23, 41);
 }
 textarea{
     height: 80px;
 }
 button{
-    background-color: rgb(3, 3, 3);
-    color: blue;
+    background-color: white;
+    color:blue;
     padding: 5px 10px;
     border: none;
     cursor: pointer;
 }
 /*Footer*/
 footer{
-    background: blue;
+    background:black;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 80px;
     margin-top: 40px;
 }
